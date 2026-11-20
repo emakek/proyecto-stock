@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="EkDevs: reparación de computadoras, notebooks, celulares y tablets, mantenimiento tecnológico y asistencia técnica.">
+
+    <title>EkDevs | Soluciones Tecnológicas</title>
+
+    {% load static %}
+
+    <link rel="stylesheet" href="{% static 'E_publica/style.css' %}">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y NAVEGACIÓN -->
+
+    <header>
+        <nav aria-label="Navegación principal">
+
+            <a href="#inicio">EkDevs</a>
+
+            <div>
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#productos">Productos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- PORTADA -->
+
+        <section id="inicio">
+
+            <p>SOLUCIONES TECNOLÓGICAS</p>
+
+            <h1>La tecnología, en buenas manos.</h1>
+
+            <p>
+                Reparación de dispositivos, asistencia técnica y productos
+                tecnológicos para acompañarte todos los días.
+            </p>
+
+            <a href="#servicios">Conocé nuestros servicios</a>
+
+        </section>
+
+
+        <!-- SERVICIOS -->
+
+        <section id="servicios">
+
+            <p>SERVICIOS</p>
+
+            <h2>Soluciones para tus dispositivos</h2>
+
+            <p>
+                Ofrecemos reparación, mantenimiento y asistencia tecnológica
+                para computadoras, dispositivos móviles y equipos electrónicos.
+            </p>
+
+            <div class="servicios-grid">
+
+                <article class="servicio-card">
+
+                    <div class="servicio-icono" aria-hidden="true">
+                        💻
+                    </div>
+
+                    <span class="servicio-numero">01</span>
+
+                    <h3>Computadoras y notebooks</h3>
+
+                    <p>
+                        Reparación de equipos, instalación de sistemas operativos
+                        y programas, limpieza interna y reemplazo de componentes.
+                    </p>
+
+                </article>
+
+
+                <article class="servicio-card">
+
+                    <div class="servicio-icono" aria-hidden="true">
+                        📱
+                    </div>
+
+                    <span class="servicio-numero">02</span>
+
+                    <h3>Celulares y tablets</h3>
+
+                    <p>
+                        Diagnóstico de fallas, cambio de pantallas y baterías,
+                        configuración de dispositivos e instalación de aplicaciones.
+                    </p>
+
+                </article>
+
+
+                <article class="servicio-card">
+
+                    <div class="servicio-icono" aria-hidden="true">
+                        ⚙️
+                    </div>
+
+                    <span class="servicio-numero">03</span>
+
+                    <h3>Mantenimiento tecnológico</h3>
+
+                    <p>
+                        Limpieza preventiva, revisión general de equipos,
+                        actualización de sistemas y programas, y optimización
+                        del rendimiento.
+                    </p>
+
+                </article>
+
+
+                <article class="servicio-card">
+
+                    <div class="servicio-icono" aria-hidden="true">
+                        🎧
+                    </div>
+
+                    <span class="servicio-numero">04</span>
+
+                    <h3>Asistencia tecnológica</h3>
+
+                    <p>
+                        Instalación y configuración de periféricos, impresoras
+                        y programas, además de asistencia ante inconvenientes
+                        tecnológicos.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUCTOS -->
+
+        <section id="productos">
+
+            <p>PRODUCTOS Y ACCESORIOS</p>
+
+            <h2>Tecnología para tu día a día.</h2>
+
+            <p>
+                Conocé algunas de las categorías que podremos ofrecer en el local.
+            </p>
+
+            <div class="productos-grid">
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/mouse.jpg' %}"
+                        alt="Mouse para computadora"
+                    >
+
+                    <h3>Mouse</h3>
+
+                    <p>Periféricos para tu computadora.</p>
+
+                </article>
+
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/teclados.jpg' %}"
+                        alt="Teclado para computadora"
+                    >
+
+                    <h3>Teclados</h3>
+
+                    <p>Opciones para trabajar y estudiar.</p>
+
+                </article>
+
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/auriculares.jpg' %}"
+                        alt="Auriculares"
+                    >
+
+                    <h3>Auriculares</h3>
+
+                    <p>Accesorios para escuchar y comunicarte.</p>
+
+                </article>
+
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/cables-adaptadores.jpg' %}"
+                        alt="Cables y adaptadores tecnológicos"
+                    >
+
+                    <h3>Cables y adaptadores</h3>
+
+                    <p>Conectividad para distintos dispositivos.</p>
+
+                </article>
+
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/cargadores.jpg' %}"
+                        alt="Cargadores para dispositivos"
+                    >
+
+                    <h3>Cargadores</h3>
+
+                    <p>Accesorios para dispositivos móviles.</p>
+
+                </article>
+
+
+                <article class="producto-card">
+
+                    <img
+                        src="{% static 'E_publica/productos/almacenamiento.jpg' %}"
+                        alt="Dispositivos de almacenamiento"
+                    >
+
+                    <h3>Almacenamiento</h3>
+
+                    <p>Soluciones para guardar información.</p>
+
+                </article>
+
+            </div>
+
+            <p>
+                Las imágenes son ilustrativas. Los productos y la información
+                comercial se definirán más adelante.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section id="contacto">
+
+            <p>CONTACTO</p>
+
+            <h2>Estamos para ayudarte.</h2>
+
+            <p>
+                Comunicate con nosotros por consultas sobre nuestros
+                servicios y productos.
+            </p>
+
+            <div class="contacto-grid">
+
+                <article class="contacto-card">
+
+                    <h3>Horarios de atención</h3>
+
+                    <p>Lunes a sábados</p>
+
+                    <p>08:00 a 12:00 / 16:00 a 20:00</p>
+
+                </article>
+
+
+                <article class="contacto-card">
+
+                    <h3>Contacto</h3>
+
+                    <p>Teléfono: 3735667620</p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+
+    <footer>
+
+        <p>
+            © 2026 EkDevs. Todos los derechos reservados.
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
